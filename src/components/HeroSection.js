@@ -124,8 +124,8 @@ const HeroSection = () => {
               className=" mx-auto "
               style={{
                 borderRadius: "50%",
-                width: "300px",
-                height: "333px",
+                width: "400px",
+                height: "auto",
                 backgroundSize: "cover",
               }}
             />
