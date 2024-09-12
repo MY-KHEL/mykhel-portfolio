@@ -14,6 +14,7 @@ const mainAnimation = {
     opacity: 1,
     transition: {
       delay: 0.5,
+      duration: 0.7,
     },
   },
 };
@@ -48,13 +49,13 @@ const HeroSection = () => {
           className="p-2 "
         >
           <p className="text-6xl mb-2">👋</p>
-          <h1 className="font-bold text-4xl md:text-6xl ">
+          <h1 className="font-bold text-4xl md:text-6xl dark:text-lightslate">
             Hi, I'm Michael Ojo{" "}
           </h1>
-          <h1 className="font-bold text-2xl md:text-3xl mt-4 underline ">
+          <h1 className="font-bold text-2xl md:text-3xl mt-4 underline dark:text-lightslate ">
             Front-End Developer
           </h1>
-          <p className="mt-4">
+          <p className=" mt-4 dark:text-slate">
             Specialized in crafting beautiful, interactive web experiences using
             HTML, CSS, and JavaScript and their respective frameworks and
             libraries. I love the blend of architecture and artistry, ensuring
@@ -108,13 +109,16 @@ const HeroSection = () => {
         <div className=" ">
           <motion.div
             initial={{
+              x: 600,
               opacity: 0,
             }}
             animate={{
+              x: 0,
               opacity: 1,
             }}
             transition={{
-              delay: 0.6,
+              delay: 0.5,
+              duration: 0.7,
             }}
             className=" text-center image-pic p-4"
           >
