@@ -14,6 +14,8 @@ module.exports = {
       one: "#CACFF9",
       two: "#F5CBD9",
       three: "#F4BCCD",
+      slate: "#94a3b8",
+      lightslate: "#e2e8f0",
     },
     extend: {},
     borderRadius: {
