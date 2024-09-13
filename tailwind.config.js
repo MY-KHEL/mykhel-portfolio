@@ -16,6 +16,7 @@ module.exports = {
       three: "#F4BCCD",
       slate: "#94a3b8",
       lightslate: "#e2e8f0",
+      lighterslate: "#f8fafc",
     },
     extend: {},
     borderRadius: {
