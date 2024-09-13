@@ -20,6 +20,10 @@ export const skills = [
     skill: "REST APIs",
   },
   {
+    id: 10,
+    skill: "CSS",
+  },
+  {
     id: 6,
     skill: "Framer Motion",
   },

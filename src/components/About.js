@@ -40,7 +40,7 @@ const About = () => {
             return (
               <span
                 key={skill.id}
-                className="p-2 bg-black/20 text-black text-slate dark:border-2 dark:border-slate p-2 rounded-md m-2"
+                className="p-2 bg-black/20 text-black bg:text-slate dark:border-2 dark:border-slate p-2 rounded-md m-2"
               >
                 <p className="font-semibold">{skill.skill}</p>
               </span>
