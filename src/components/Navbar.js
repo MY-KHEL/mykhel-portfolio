@@ -156,7 +156,7 @@ const Navbar = ({ theme, handleTheme }) => {
           </div>
         </div>
         {/* For Tablet to Laptop Screen */}
-        <div className="md:basis-1/2 hidden md:flex justify-between py-4 px-8   dark:text-black dark:bg-lightslate bg-white ring-1 dark:ring-lightslate ring-black shadow-md items-center rounded-full">
+        <div className="md:basis-1/2 hidden md:flex justify-between py-4 px-8  shadow-inner shadow-black/80 dark:shadow-black dark:text-black dark:bg-lightslate bg-lighterslate   dark:ring-lightslate ring-black shadow-md items-center rounded-full">
           <a href=".">Home</a>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
