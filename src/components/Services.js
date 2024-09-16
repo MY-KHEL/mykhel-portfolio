@@ -12,7 +12,7 @@ const Services = () => {
       y: 0,
       x: 0,
       transition: {
-        duration: 1.5,
+        duration: 1,
         delay: i * 0.5,
       },
     }),
