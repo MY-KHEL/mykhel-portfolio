@@ -2,7 +2,7 @@ import { skills } from "../data/skills";
 
 const About = () => {
   return (
-    <div className="p-8 bg-lighterslate dark:bg-black dark:text-slate mb-8 lg:grid grid-cols-3 gap-8">
+    <div className="p-8 bg-lighterslate dark:bg-black dark:text-slate  lg:grid grid-cols-3 gap-8">
       <div className="col-span-2">
         <h2 className="font-bold text-4xl md:text-4xl  underline text-center dark:text-lightslate">
           ABOUT ME

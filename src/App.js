@@ -31,7 +31,7 @@ function App() {
     console.log(theme);
   };
   return (
-    <div className="App dark:bg-black dark:text-white pb-4">
+    <div className="App dark:bg-black dark:text-white bg-lighterslate">
       <div className="bg-gradient-to-r from-one to-two dark:bg-none ">
         <Navbar theme={theme} handleTheme={handleTheme} />
         <HeroSection />

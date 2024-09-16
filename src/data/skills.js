@@ -16,6 +16,10 @@ export const skills = [
     skill: "React Js",
   },
   {
+    id: 10,
+    skill: "CSS",
+  },
+  {
     id: 5,
     skill: "REST APIs",
   },

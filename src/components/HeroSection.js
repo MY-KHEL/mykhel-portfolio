@@ -23,7 +23,7 @@ const HeroSection = () => {
     <>
       {" "}
       <button
-        className="bg-secColor to-top dark:bg-gradient-to-l from-purple to-pink text-white p-2"
+        className="bg-secColor to-top dark:bg-plainpurpletext-white p-2"
         style={styles}
       >
         <svg
@@ -66,7 +66,7 @@ const HeroSection = () => {
           </p>
           <div className="mt-6 md:mb-6 ">
             <a href="https://wa.me/2349082909072">
-              <button className="md:mx-4 bg-secColor text-white dark:bg-gradient-to-l from-purple to-pink py-2 px-4  rounded-lg ">
+              <button className="md:mx-4 bg-secColor  mr-2 text-white dark:bg-plainpurple  dark:hover:bg-plainpurple/70 py-2 px-4  rounded-lg ">
                 Chat with me{" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +85,7 @@ const HeroSection = () => {
               </button>
             </a>
             <a href="mykhel_cv.pdf" target="_blank" download>
-              <button className=" bg-secColor sm:mx-2 mx-2 text-white dark:bg-gradient-to-r from-purple via-purple-500 to-pink py-2 px-4 rounded-lg mt-3  md:mt-0  md:mx-6">
+              <button className=" bg-secColor  text-white dark:bg-plainpurple dark:hover:bg-plainpurple/70 py-2 px-4 rounded-lg mt-3  md:mt-0  md:mx-6">
                 Download CV
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -112,9 +112,12 @@ const HeroSection = () => {
               x: 600,
               opacity: 0,
             }}
-            animate={{
+            whileInView={{
               x: 0,
               opacity: 1,
+            }}
+            viewport={{
+              once: true,
             }}
             transition={{
               delay: 0.5,
