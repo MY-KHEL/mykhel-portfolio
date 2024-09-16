@@ -5,17 +5,17 @@ const Services = () => {
     initial: {
       opacity: 0,
       y: -10,
-      x:-3,
+      x: -3,
     },
-    animate:(i:number )=> ({
+    animate: (i) => ({
       opacity: 1,
       y: 0,
-      x:0,
+      x: 0,
       transition: {
         duration: 1.5,
-        delay:i*0.5,
+        delay: i * 0.5,
       },
-    })
+    }),
   };
 
   return (
@@ -24,20 +24,17 @@ const Services = () => {
         <h2 className="font-bold text-3xl md:text-4xl  text-center dark:text-lightslate ">
           SERVICES I OFFER
         </h2>
-        <div
-          className="grid grid-cols-1 md:grid-cols-3 gap-4 px-4 md:px-8 mt-8 mb-6 text-slate "
-          
-        >
-          {data.map((item,i) => {
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-4 md:px-8 mt-8 mb-6 text-slate ">
+          {data.map((item, i) => {
             return (
               <motion.div
-              variants={miniAnimation}
-          initial="initial"
-          whileInView="animate"
-          viewport ={{
-            once:true,
-          }}
-          custom={ i }
+                variants={miniAnimation}
+                initial="initial"
+                whileInView="animate"
+                viewport={{
+                  once: true,
+                }}
+                custom={i}
                 key={item.id}
                 className="border  rounded-md py-8 px-2 text-center "
               >
